@@ -164,21 +164,21 @@ public:
          * @brief belirli uygulamalar dışında false olarak tutmanız önerilir varsayılan olarak false dir
          * @param trfls Kalibrasyon tipi (true/false)
          */
-        void ogrenimli_kalibre(bool trfls = false);
+      //  void ogrenimli_kalibre(bool trfls = false);
 
         /**
          * @brief AFK kalma süresini ayarlar.
-         * @brief önerilen süre 1000ms dir
+         * @brief önerilen süre 20ms dir
          * @param milisaniye AFK süresi
          */
-        void afk_kalma_ms(uint16_t milisaniye = 1000);
+        void afk_kalma_ms(uint16_t milisaniye = 20);
 
         /**
          * @brief Okuma tolerans değerini ayarlar.
-         * @brief önerilen deger 0-1023 aralıgı için 1 veya 2 dir, kullanmayacaksanız 0 girin
-         * @param tolare_degeri Tolerans değeri(varsayılan 1)
+         * @brief önerilen deger 0-1023 aralıgı için 6 veya 5 dir, kullanmayacaksanız 0 girin
+         * @param tolare_degeri Tolerans değeri(varsayılan 5)
          */
-        void tolerans(uint8_t tolare_degeri = 1);
+        void tolerans(uint8_t tolare_degeri = 5);
 
         /**
          * @brief Çıkış aralığını ayarlar.
