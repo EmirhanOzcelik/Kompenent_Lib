@@ -14,11 +14,11 @@ Bu kütüphane, butonlar ve potansiyometreler ile çalışırken debounce, bası
 
 ## Kurulum
 
-1. `BUTPOTLIB` klasörünü `Arduino/libraries/` klasörüne ekleyin.
+1. `Kompenent_Lib` klasörünü `Arduino/libraries/` klasörüne ekleyin.
 2. `.ino` dosyanızda aşağıdaki gibi dahil edin:
 
 ```cpp
-#include <BUTPOTLIB.h>
+#include <Kompenent.h>
 ```
 
 ### Buton Sınıfı - 
